@@ -2999,17 +2999,6 @@ img[data-lazy-src].error {
   -ms-filter: none !important;
   filter: none !important;
 }
-img[data-lazy-src]:not(.loaded) {
-  opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  filter: alpha(opacity=0);
-}
-img[src=''],
-img:not([src]) {
-  opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  filter: alpha(opacity=0);
-}
 .img-alt {
   font-size: 12px;
   margin: 0;
